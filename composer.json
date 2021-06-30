@@ -1,0 +1,27 @@
+{
+    "name": "lib-hub/firebaseapiwrapper",
+    "description": "A tiny lib to use the firebase messaging api with ease.",
+    "keywords": [
+        "firebase",
+        "fcm",
+        "push-notification",
+        "cloud-messaging"
+    ],
+    "require": {
+        "php": "^7.4",
+        "google/apiclient": "^2.10",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FirebaseWrapper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andreas Ntrouflias",
+            "email": "antrouflias@gmail.com",
+            "role": "Developer"
+        }
+    ]
+}
